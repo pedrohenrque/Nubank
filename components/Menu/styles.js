@@ -3,7 +3,7 @@ import styled from 'styled-components/native';
 import { StyleSheet, Animated } from 'react-native';
 
 export const Container = styled(Animated.ScrollView)`
-  margin: 0 30px;
+  margin: 0px 30px;
 `;
 export const Code = styled.View`
   overflow: hidden;
@@ -18,7 +18,7 @@ export const Nav = styled.View`
   border-top-color: rgba(255, 255, 255, 0.8);
 `;
 
-export const NavItem = styled.View`
+export const NavItem = styled.TouchableOpacity`
   flex-direction: row;
   align-items: center;
   padding: 12px 0;

@@ -23,6 +23,7 @@ import {
 export default function Main() {
   let offset = 0;
   const translateY = new Animated.Value(0);
+
   const animatedEvent = Animated.event(
     [
       {

@@ -5,7 +5,7 @@ import styled from 'styled-components/native';
 export const Container = styled.View`
   flex: 1;
   background: #8810ae;
-  justify-content: center;
+  justify-content: space-around;
 `;
 
 export const Content = styled.View`
